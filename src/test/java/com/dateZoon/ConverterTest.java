@@ -104,15 +104,6 @@ public class ConverterTest {
 
 	}
 
-	@Test
-	public void testConvertCalenderToLocalDateTime() {
-
-	}
-
-	@Test
-	public void testConvertLocalDateTimeToCalender() {
-
-	}
 
 	@Test
 	public void testConvertOffsetDateTimeToCalender() {
@@ -171,10 +162,7 @@ public class ConverterTest {
 		String s = "Fri, Jan 25 2019 07:35:44";// date er format
 		SimpleDateFormat formatter = new SimpleDateFormat("E, MMM dd yyyy HH:mm:ss");
 		Date date2 = formatter.parse(s);
-		
-//		System.out.println(date2);
-//		System.out.println(date);
-		
+
 		assertEquals(date2,date);
 	}
 
