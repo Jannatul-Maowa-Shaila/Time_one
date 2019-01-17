@@ -71,22 +71,6 @@ public static Date convertLocalDateTimeToDate(LocalDateTime ldt) {
 
 
 
-public static LocalDateTime convertCalenderToLocalDateTime(Calendar calender) {
-	return null;
-    
-	
-}
-
-
-public static Calendar convertLocalDateTimeToCalender(LocalDateTime ldt) {
-	return null;
-	
-	
-}
-
-
-
-
 
 public static Calendar convertOffsetDateTimeToCalender( OffsetDateTime o) {
 	
